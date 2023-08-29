@@ -14,6 +14,7 @@ const BlogCartCoverImage = ({ imgUrl }) => {
         alt={"Blog Main Image"}
         width={10000}
         height={10000}
+        priority={true}
       />
     </div>
   );

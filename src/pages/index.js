@@ -9,6 +9,43 @@ export default function Home({ posts, postsImageUrl }) {
     <>
       <Head>
         <title>Ahmed Salama</title>
+        {/* <!-- Primary Meta Tags --> */}
+        <meta name="title" content="Ahmed Salama" />
+        <meta
+          name="description"
+          content="Welcome to my personal blog, where I share my opinions and knowledge with you. Explore insightful articles on a wide range of topics, from front-end development using HTML, CSS, and JavaScript to leveraging the power of React, Redux, React Router, and React Hooks. Join me in my journey of problem-solving using online resources and AI-driven solutions to ensure high-quality production. Stay updated on the latest trends and emerging technologies in the world of web development, as I'm committed to continuous learning and growth. Engage with 
+          thought-provoking discussions and enrich your understanding of the 
+          ever-evolving digital landscape. Let's embark on this knowledge-sharing 
+          adventure together!"
+        />
+
+        {/* <!-- Open Graph / Facebook --> */}
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:url"
+          content="https://personal-blog-eight-ochre.vercel.app/"
+        />
+        <meta property="og:title" content="Ahmed Salama" />
+        <meta property="og:description" content="" />
+        <meta
+          property="og:image"
+          content="https://metatags.io/images/meta-tags.png"
+        />
+
+        {/* <!-- Twitter --> */}
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta
+          property="twitter:url"
+          content="https://personal-blog-eight-ochre.vercel.app/"
+        />
+        <meta property="twitter:title" content="Ahmed Salama" />
+        <meta property="twitter:description" content="" />
+        <meta
+          property="twitter:image"
+          content="https://metatags.io/images/meta-tags.png"
+        />
+
+        {/* <!-- Meta Tags Generated with https://metatags.io --> */}
       </Head>
       <section className={`flex flex-col w-full items-center justify-between`}>
         <BlogList posts={posts} postsImageUrl={postsImageUrl} />
