@@ -9,7 +9,6 @@ export default function Home({ posts, postsImageUrl }) {
     <>
       <Head>
         <title>Ahmed Salama</title>
-        {/* <!-- Primary Meta Tags --> */}
         <meta name="title" content="Ahmed Salama" />
         <meta
           name="description"
@@ -29,7 +28,7 @@ export default function Home({ posts, postsImageUrl }) {
         <meta property="og:description" content="" />
         <meta
           property="og:image"
-          content="https://metatags.io/images/meta-tags.png"
+          content="blob:https://vercel.com/905e0fda-c23c-4c2a-8f75-69a86a7ece3c"
         />
 
         {/* <!-- Twitter --> */}
@@ -44,8 +43,6 @@ export default function Home({ posts, postsImageUrl }) {
           property="twitter:image"
           content="https://metatags.io/images/meta-tags.png"
         />
-
-        {/* <!-- Meta Tags Generated with https://metatags.io --> */}
       </Head>
       <section className={`flex flex-col w-full items-center justify-between`}>
         <BlogList posts={posts} postsImageUrl={postsImageUrl} />

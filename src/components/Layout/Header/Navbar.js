@@ -10,7 +10,7 @@ const Navbar = () => {
           </AnimateLink>
         </li>
         <li>
-          <AnimateLink className={"p-1 text-main-gray hover:text-white transition-colors"} href="about-us">
+          <AnimateLink className={"p-1 text-main-gray hover:text-white transition-colors"} href="/about-us">
             About
           </AnimateLink>
         </li>
